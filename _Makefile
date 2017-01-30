@@ -1,0 +1,2 @@
+build:
+	GOPATH=$(GOPATH):$(pwd) go build -o bin/ddb && bin/ddb
